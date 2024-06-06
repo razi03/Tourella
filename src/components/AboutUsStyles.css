@@ -1,0 +1,122 @@
+/* .about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.about-container h1{
+    padding-bottom: 1rem;
+}
+
+.about-container p{
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:850px) {
+    .about-container{
+        margin: 4rem 2rem;
+    }
+} */
+
+/* ClientReviewStyles.css */
+
+.client-review {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.client-review h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.review p {
+    color: #666;
+    font-size: 16px;
+}
+
+.rating {
+    color: #ffbf00;
+    font-size: 18px;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.review-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #0056b3;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star-rating button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ddd;
+}
+
+.star-rating button.on {
+    color: #ffbf00;
+}
+
+.star-rating button.off {
+    color: #ddd;
+}
+
+.star-rating .star {
+    pointer-events: none;
+}

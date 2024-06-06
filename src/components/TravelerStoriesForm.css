@@ -1,0 +1,58 @@
+/* TravelerStoriesFormStyles.css */
+
+.traveler-stories-form {
+    /* Styles for the container div of the traveler stories form */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .destination {
+    /* Styles for the destination section */
+    margin-bottom: 20px;
+  }
+  
+  .destination h1 {
+    /* Styles for the heading of the destination section */
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .destination p {
+    /* Styles for the paragraph of the destination section */
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .des-text {
+    /* Styles for the description text within the destination section */
+    margin-bottom: 10px;
+  }
+  
+  .des-text h2 {
+    /* Styles for the heading within the destination section */
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .des-text p {
+    /* Styles for the paragraph text within the destination section */
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .image {
+    /* Styles for the image container within the destination section */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image img {
+    /* Styles for the images within the destination section */
+    width: 45%;
+    border-radius: 5px;
+  }
+  
+  /* Add more styles as needed for other components within the TravelerStoriesForm */
+  
